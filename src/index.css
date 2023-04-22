@@ -1,0 +1,91 @@
+html {
+  background-color: cyan;
+  font-family: monospace;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  height: 525px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px 0 deeppink;
+}
+
+.container p {
+  margin: 0.5rem;
+}
+
+h1 {
+  color: deeppink;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px cyan;
+}
+
+.intOneLabel, .intTwoLabel, .operatorLabel, .result {
+  color: cyan;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  text-align: center;
+  font-family: monospace;
+  font-size: 19px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 6px 0 deeppink;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 19px;
+  font-family: monospace;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: 0 0 4px 0 deeppink;
+  font-weight: bold;
+}
+
+.operator {
+  font-size: 19px;
+}
+
+.result {
+  color: #333333;
+  background-color: cyan;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 30px !important;
+  margin-bottom: 15px !important;
+  box-shadow: 0 0 8px 0 deeppink;
+  margin-bottom: 10px;
+}
+
+.selected {
+  background-color: deeppink;
+  box-shadow: 0 0 4px 0 cyan;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  /* adjust font size or padding for smaller screens */
+  .container {
+    font-size: 0.8em;
+  }
+}
